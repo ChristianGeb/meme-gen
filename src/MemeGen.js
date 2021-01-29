@@ -50,7 +50,7 @@ class MemeGen extends React.Component {
             onChange={this.handleChange}
           />
 
-          <button>Gen</button>
+          <button>Generate the memeZ</button>
         </form>
         <div>
           <img src={this.state.rndmImg} alt="" />
